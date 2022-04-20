@@ -1,9 +1,19 @@
-- 👋 Hi, I’m @shabazz3man
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
+I have McGroganArrayMethod.java:25: error: bad operand types for binary operator '<'
+      if (usernum < 0 && usernum > 49) 
+                  ^
+  first type:  int[]
+  second type: int
+McGroganArrayMethod.java:25: error: bad operand types for binary operator '>'
+      if (usernum < 0 && usernum > 49) 
+                                 ^
+  first type:  int[]
+  second type: int
+McGroganArrayMethod.java:39: error: bad operand types for binary operator '>'
+    if(arrayB > arrayA){
+              ^
+  first type:  int[]
+  second type: int[]
+3 errors
 <!---
 shabazz3man/shabazz3man is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
